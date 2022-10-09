@@ -70,3 +70,98 @@ ul.posts li { list-style: none; }
 .blurb .Awards p{
     
 }
+
+.wall {
+    background: url(../static/photo/pexels-gdtography-911738.jpg) no-repeat top center fixed;
+    background-size: 100% auto;
+}
+
+.wall {
+    width: 1400px;
+    height: 950px;
+    overflow: hidden;
+    margin: 100px auto;
+    position: relative;
+}
+
+.wall img {
+    z-index: 1;
+    width: 20%;
+    height: auto;
+    position: absolute;
+    padding: 10px 10px 15px 10px;
+    background: #ffffff;
+    border: 1px solid #CCCCCC;
+    /* 动画的时间 */
+    -moz-transition: 0.5s;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.wall img:hover {
+    z-index: 2;
+    transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    box-shadow: -10px 10px 20px #000000;
+    -moz-box-shadow: -10px 10px 20px #000000;
+    -webkit-box-shadow: -10px 10px 20px #000000;
+}
+
+.pic1 {
+    left: 100px;
+    top: 50px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.pic2 {
+    left: 350px;
+    top: 60px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.pic3 {
+    left: 600px;
+    top: 60px;
+    -webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    transform: rotate(-20deg);
+}
+.pic4 {
+    left: 900px;
+    top: 60px;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+}
+.pic5 {
+    left: 100px;
+    top: 350px;
+    -webkit-transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
+.pic6 {
+    left: 350px;
+    top: 350px;
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+.pic7 {
+    left: 600px;
+    top: 350px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+}
+.pic8 {
+    left: 900px;
+    top: 350px;
+    -webkit-transform: rotate(25deg);
+    -moz-transform: rotate(25deg);
+    transform: rotate(25deg);
+}
