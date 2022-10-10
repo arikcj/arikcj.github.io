@@ -72,15 +72,15 @@ ul.posts li { list-style: none; }
 }
 
 .wall {
-    background: url(../static/photo/pexels-gdtography-911738.jpg) no-repeat top center fixed;
+    background: url(../static/photo/pexels-magda-ehlers-9348495.jpg) no-repeat top center fixed;
     background-size: 100% auto;
 }
 
 .wall {
     width: 1400px;
-    height: 950px;
+    height: 700px;
     overflow: hidden;
-    margin: 100px auto;
+    margin: 50px 10px auto;
     position: relative;
 }
 
