@@ -1,0 +1,6 @@
+_site/
+.jekyll-chche/
+Gemfile.lock
+.jekyll-cache/Jekyll/Cache/Jekyll--Cache/
+.jekyll-cache/Jekyll/Cache/Jekyll--Converters--Markdown/
+static/photo/
